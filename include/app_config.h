@@ -9,6 +9,9 @@
 
 #define BUTTON_GPIO_NUM        (-1)
 
+#define BUZZER_GPIO_NUM        (-1)
+#define BUZZER_FREQ            (440)
+
 typedef enum _TL_STATE {
     TL_STATE_RED,
     TL_STATE_RED_YELLOW,
