@@ -3,13 +3,13 @@
 
 #define BAUD_RATE               (PIO_BAUD_RATE)
 
-#define TL_RED_GPIO_NUM        (-1)
-#define TL_YELLOW_GPIO_NUM     (-1)
-#define TL_GREEN_GPIO_NUM      (-1)
+#define TL_RED_GPIO_NUM        (2)
+#define TL_YELLOW_GPIO_NUM     (18)
+#define TL_GREEN_GPIO_NUM      (4)
 
-#define BUTTON_GPIO_NUM        (-1)
+#define BUTTON_GPIO_NUM        (32)
 
-#define BUZZER_GPIO_NUM        (-1)
+#define BUZZER_GPIO_NUM        (12)
 #define BUZZER_FREQ            (440)
 
 typedef enum _TL_STATE {
